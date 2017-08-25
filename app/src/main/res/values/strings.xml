@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="enter_the_city">Enter the city</string>
+    <string name="error_message">Something went wrong</string>
+    <string name="progress_message">Please wait...</string>
+    <string name="item_clicked_message">Selection is</string>
+</resources>
