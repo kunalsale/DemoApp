@@ -128,7 +128,6 @@ public class MainActivity extends AppCompatActivity implements TextWatcher,
                     @Override
                     public void onError(Throwable e)
                     {
-                        Log.i("MainActivity","error");
                     }
 
                     @Override

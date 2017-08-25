@@ -1,6 +1,7 @@
 package com.example.hp.demoapp.database;
 
 import android.os.AsyncTask;
+import android.util.Log;
 
 import com.example.hp.demoapp.model.CityVO;
 
@@ -30,6 +31,7 @@ public class InsertDataAsynctask extends AsyncTask<Void,Void,Long>
             {
                 if(mController.insertData(cityVO))
                 {
+                    Log.i("MainActivity",cityVO.getName());
                 }
             }
         }
